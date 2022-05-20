@@ -22,14 +22,23 @@
     border-radius: 15px;
     background-color: #eab676;
 }
+.form__title{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 4rem;
+    position: relative;
+    bottom: 7vh;
+}
 .input{
+    position: relative;
+    bottom: 3vh;
     border: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 1.7vh;
-    width: 12vw;
+    width: 15vw;
     margin-bottom: 1vh;
 }
+
 .input::placeholder{
     padding-left: 7px;
 }
