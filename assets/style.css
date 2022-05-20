@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-style: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #76b5c5;
+}
+.form__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 15px;
+    background-color: #eab676;
+}
+.input{
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 1.7vh;
+    width: 12vw;
+    margin-bottom: 1vh;
+}
+.input::placeholder{
+    padding-left: 7px;
+}
+.btn{
+    color: #fff;
+    cursor: pointer;
+    width: 7vw;
+    height: 2vh;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: #21130d;
+}
+.btn:hover{
+    transition: all 0.5s;
+    box-shadow: none;
+    background-color: #76b5c5;
+}
+.btn-txt{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 19px;
+}
