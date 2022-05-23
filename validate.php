@@ -1,4 +1,5 @@
 <?php
+session_start();
 $dbEmail = "gaerste@gmail.com";
 $dbPass = "12345678";
 $dbPassEnc = password_hash($dbPass, PASSWORD_DEFAULT);

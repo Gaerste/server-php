@@ -23,14 +23,7 @@ if (!isset($_SESSION['email'])) {
 <body>
     <div class="main__container">
         <nav class="main__nav">
-            <div class="nav__container">
-                <ul class="list__container">
-                    <span class="list">Dowloads</span>
-                    <span class="list">Documentation</span>
-                    <span class="list">Help</span>
-                </ul>
-                <button type="button" name="logout" class="logout__btn">logout</button>
-            </div>
+                <a href="close_session.php" class="logout">logout</a>
         </nav>
         <main class="main__section">
             <section class="container__message">
