@@ -41,6 +41,7 @@
 
 .input::placeholder{
     padding-left: 7px;
+    color: #21130d;
 }
 .btn{
     color: #fff;

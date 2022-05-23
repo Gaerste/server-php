@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,11 +14,11 @@
 
 <body>
     <main class="container">
-        <form action="" class="form__container">
+        <form action="validate.php" method="POST" class="form__container">
             <h2 class="form__title">Login</h2>
-            <input type="email" name="email" class="input" placeholder="Email">
+            <input type="text" name="email" class="input" placeholder="Email">
             <input type="password" name="password" class="input" placeholder="Password">
-            <button type="submit" class="btn"><span class="btn-txt">Send</span></button>
+            <button type="submit" name="submit" class="btn">Login</button>
         </form>
     </main>
 </body>
